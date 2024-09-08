@@ -1,7 +1,7 @@
 # Demo video
 https://youtu.be/EJD8-38Ycz8 
 
-#Files included:
+# Files included:
 FE Web (React) - web-frontend
 FE Mobile (Android Java) - mobile-frontend
 BE (Java Spring Boot) - backend
