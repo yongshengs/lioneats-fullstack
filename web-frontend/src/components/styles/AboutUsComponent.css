@@ -1,0 +1,29 @@
+/* src/components/styles/AboutUsComponent.css */
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .header {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .body-text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  

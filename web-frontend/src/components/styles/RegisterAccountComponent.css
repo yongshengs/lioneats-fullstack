@@ -1,0 +1,55 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dish-preferences-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.dish-card {
+    width: 150px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dish-card.selected {
+    border-color: #007bff;
+}
+
+.dish-card-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.dish-card-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dish-card-title {
+    font-size: 18px;  
+    margin-bottom: 5px;
+}
+
+.dish-checkbox {
+    margin-top: 5px;
+    pointer-events: none; /* Disable checkbox interaction */
+    transform: scale(1.5); 
+}
+
+.btn-primary {
+    margin-top: 20px;
+}

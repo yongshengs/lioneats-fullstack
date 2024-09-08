@@ -1,0 +1,30 @@
+.drop-area {
+    border: 2px dashed #007bff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.drop-area p {
+    margin-top: 10px;
+    color: #6c757d;
+}
+
+.drop-area.dragging {
+    background-color: #f8f9fa;
+    border-color: #17a2b8;
+    color: #17a2b8;
+}
+
+.drop-area.dragging p {
+    color: #17a2b8;
+}
+
+.drop-area img {
+    margin-top: 15px;
+}
+

@@ -1,0 +1,11 @@
+name: inference_env
+channels:
+  - defaults
+dependencies:
+  - python=3.12  # 根据实际情况调整版本
+  - pip
+  - pip:
+    - tensorflow
+    - pillow
+    - numpy
+    - requests

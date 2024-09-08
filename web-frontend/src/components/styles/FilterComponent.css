@@ -1,0 +1,27 @@
+.filter-container {
+  padding: 20px;
+}
+
+.filter-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.filter-subheader {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-label {
+  margin-left: 8px; /* Add spacing between checkbox and label */
+}
