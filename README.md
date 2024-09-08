@@ -2,10 +2,10 @@
 https://youtu.be/EJD8-38Ycz8 
 
 # Files included:
-FE Web (React) - web-frontend
-FE Mobile (Android Java) - mobile-frontend
-BE (Java Spring Boot) - backend
-ML model (Python, Keras, Flask) - cnn-model
+1. FE Web (React) - web-frontend
+2. FE Mobile (Android Java) - mobile-frontend
+3. BE (Java Spring Boot) - backend
+4. ML model (Python, Keras, Flask) - cnn-model
 
 # Recommended setup
 1. Split each of the 4 components into their own repository and run them separately
@@ -13,16 +13,16 @@ ML model (Python, Keras, Flask) - cnn-model
 
 ## web-frontend
 How to install and set up React app in your computer:
-1) Load up terminal and cd to the folder you want the frontend app to reside in
-2) Ensure that you have downloaded and installed vite
-3) Run "npm create vite@latest lioneats-frontend"
-4) Follow the instructions on the screen in the CLI
-5) Install a few other packages in your app's directory:
+1. Load up terminal and cd to the folder you want the frontend app to reside in
+2. Ensure that you have downloaded and installed vite
+3. Run "npm create vite@latest lioneats-frontend"
+4. Follow the instructions on the screen in the CLI
+5. Install a few other packages in your app's directory:
   - npm install bootstrap --save
   - npm install axios --save
   - npm install react-router-dom --save
 
-6) Take note to add in "import 'bootstrap/dist/css/bootstrap.min.css'" in the Main.jsx file
+6. Take note to add in "import 'bootstrap/dist/css/bootstrap.min.css'" in the Main.jsx file
 
 ## cnn-model
 Our code is designed to recognize 10 Singaporean dishes using CNN model.
@@ -57,5 +57,5 @@ For the other 2 applications:
 2. BE (Java Spring Boot) - suggest to run it normally on IntelliJ, no special packages/command line instructions required
 
 # Credits
-Built by Soh Yong Sheng, Thet Naung Soe, Chen Yiqiu (Sophie), Zhao Ziyang, Sun Tianrui (Ray) and Lin Zeyu
-Submitted as capstone project for NUS-ISS Graduate Diploma in Systems Analysis (SA58)
+1. Built by Soh Yong Sheng, Thet Naung Soe, Chen Yiqiu (Sophie), Zhao Ziyang, Sun Tianrui (Ray) and Lin Zeyu
+2. Submitted as capstone project for NUS-ISS Graduate Diploma in Systems Analysis (SA58)
